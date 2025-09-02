@@ -4094,3 +4094,5 @@ $lang['einvoice_template_variables']                    = 'Template variables';
 
 $lang['item_is_optional'] = 'This item is optional';
 $lang['item_is_selected'] = 'Selected';
+$lang['note_title'] = 'Note Title';
+$lang['note_content'] = 'Note Content';
