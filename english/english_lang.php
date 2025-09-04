@@ -4091,6 +4091,9 @@ $lang['einvoice_template_invalid_xml_on_submit']        = 'Invalid XML. Please c
 $lang['xml_error']                                      = 'XML Error';
 $lang['einvoice_no_template_set']                       = 'No e-Invoice template set. Please set one in the settings.';
 $lang['einvoice_template_variables']                    = 'Template variables';
+$lang['einvoice_module_permission_bulk']                = 'Bulk export';
+$lang['einvoice_module_bulk_export']                    = 'Einvoice Export';
+
 
 $lang['item_is_optional'] = 'This item is optional';
 $lang['item_is_selected'] = 'Selected';
