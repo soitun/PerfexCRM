@@ -4082,25 +4082,27 @@ $lang['settings_einvoice_default_credit_note_template']         = 'Default e-Inv
 $lang['settings_einvoice_send_as_invoice_email_attachment']     = 'Send e-Invoice as invoice attachment with email';
 $lang['settings_einvoice_send_as_credit_note_email_attachment'] = 'Send e-Invoice as credit note attachment with email';
 $lang['einvoice_new_template']                          = 'New e-Invoice template';
-$lang['einvoice_template_name']                         = 'Name';
-$lang['einvoice_template_type']                         = 'Type';
-$lang['einvoice_template_content']                      = 'Template content';
-$lang['view_einvoice']                                  = 'View XML';
 $lang['einvoice_template_invalid_xml']                  = 'The entered XML content is invalid. Please fix';
 $lang['einvoice_template_invalid_xml_on_submit']        = 'Invalid XML. Please correct errors before submitting.';
+$lang['einvoice_template_invalid_json']                 = 'The entered JSON content is invalid. Please fix the JSON syntax.';
+$lang['einvoice_template_invalid_mustache']             = 'The template contains invalid Mustache syntax. Please check your template variables.';
 $lang['xml_error']                                      = 'XML Error';
 $lang['einvoice_no_template_set']                       = 'No e-Invoice template set. Please set one in the settings.';
-$lang['einvoice_template_variables']                    = 'Template variables';
 $lang['einvoice_module_permission_bulk']                = 'Bulk export';
-$lang['einvoice_module_bulk_export']                    = 'Einvoice Export';
-
+$lang['einvoice_module_bulk_export']                    = 'e-Invoice Export';
+$lang['template_type']                        = 'Type';
+$lang['template_variables']                   = 'Template variables';
+$lang['validate_template']                    = 'Validate Template';
+$lang['validating']                           = 'Validating...';
+$lang['saving']                               = 'Saving...';
+$lang['template_validation_success']          = 'Template validation successful!';
+$lang['template_content_required']            = 'Template content is required.';
 
 $lang['item_is_optional'] = 'This item is optional';
 $lang['item_is_selected'] = 'Selected';
 $lang['note_title'] = 'Note Title';
 $lang['note_content'] = 'Note Content';
 $lang['enabled_languages'] = 'Enabled Languages';
-
 
 $lang['csv_export'] = 'CSV Export';
 $lang['csv_exports'] = 'CSV Exports';
