@@ -3958,3 +3958,46 @@ $lang['openai_fine_tuning_description'] = 'Fine-tune OpenAI models with your kno
 $lang['retrain_model']               = 'Re-Train Model';
 $lang['retrain_model_description']   = 'Create a new fine-tuned model with the latest content. Previous fine-tuned models will be deleted.';
 $lang['model_is_recommended'] = 'Recommended';
+
+# 3.4.0
+$lang['settings_group_einvoice']                                = 'e-Invoice';
+$lang['settings_einvoice_templates']                            = 'e-Invoice Templates';
+$lang['einvoice']                                               = 'e-Invoice';
+$lang['settings_einvoice_default_template']                     = 'Default e-Invoice template';
+$lang['settings_einvoice_default_credit_note_template']         = 'Default e-Invoice template for credit note';
+$lang['settings_einvoice_send_as_invoice_email_attachment']     = 'Send e-Invoice as invoice attachment with email';
+$lang['settings_einvoice_send_as_credit_note_email_attachment'] = 'Send e-Invoice as credit note attachment with email';
+$lang['einvoice_new_template']                          = 'New e-Invoice template';
+$lang['einvoice_template_invalid_xml']                  = 'The entered XML content is invalid. Please fix';
+$lang['einvoice_template_invalid_xml_on_submit']        = 'Invalid XML. Please correct errors before submitting.';
+$lang['einvoice_template_invalid_json']                 = 'The entered JSON content is invalid. Please fix the JSON syntax.';
+$lang['einvoice_template_invalid_mustache']             = 'The template contains invalid Mustache syntax. Please check your template variables.';
+$lang['xml_error']                                      = 'XML Error';
+$lang['einvoice_no_template_set']                       = 'No e-Invoice template set. Please set one in the settings.';
+$lang['einvoice_module_permission_bulk']                = 'Bulk export';
+$lang['einvoice_module_bulk_export']                    = 'e-Invoice Export';
+$lang['template_type']                        = 'Type';
+$lang['template_variables']                   = 'Template variables';
+$lang['validate_template']                    = 'Validate Template';
+$lang['validating']                           = 'Validating...';
+$lang['saving']                               = 'Saving...';
+$lang['template_validation_success']          = 'Template validation successful!';
+$lang['template_content_required']            = 'Template content is required.';
+
+$lang['item_is_optional'] = 'This item is optional';
+$lang['item_is_selected'] = 'Selected';
+$lang['note_title'] = 'Note Title';
+$lang['note_content'] = 'Note Content';
+$lang['enabled_languages'] = 'Enabled Languages';
+
+$lang['csv_export'] = 'CSV Export';
+$lang['csv_exports'] = 'CSV Exports';
+$lang['contacts'] = 'Contacts';
+$lang['csv_export_select_type'] = 'Export Type';
+$lang['csv_export_all_time'] = 'All Time';
+$lang['csv_export_three_months'] = 'Last 3 Months';
+$lang['csv_export_six_months'] = 'Last 6 Months';
+$lang['csv_export_twelve_months'] = 'Last 12 Months';
+$lang['csv_export_from_date'] = 'From Date';
+$lang['csv_export_to_date'] = 'To Date';
+$lang['csv_export_button'] = 'Export';
